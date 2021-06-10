@@ -1,0 +1,2 @@
+me/user/shared/BuildConfig.java
+ me.user.shared.BuildConfig
