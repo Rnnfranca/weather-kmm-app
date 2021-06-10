@@ -1,3 +1,4 @@
+![3 - warn location permission2](https://user-images.githubusercontent.com/54109228/121584038-626fad80-ca07-11eb-8985-e13f3c50f6ab.gif)
 # WeatherApp
 
 <p align="center">
@@ -38,6 +39,7 @@ Feel free to implement the iOS part =)
 - <img src="https://user-images.githubusercontent.com/54109228/121579612-41f12480-ca02-11eb-9464-181e7303054a.gif" height="720" width="338" />
 
 3. Warn location permission
+- <img src="https://user-images.githubusercontent.com/54109228/121584038-626fad80-ca07-11eb-8985-e13f3c50f6ab.gif" height="720" width="338" />
 
 
 ##
