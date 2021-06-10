@@ -29,7 +29,15 @@ Feel free to implement the iOS part =)
 
 ##
 ### Demonstration
-[Coming soon]
+
+
+1. Opening the app
+- <img  src="https://user-images.githubusercontent.com/54109228/121579612-41f12480-ca02-11eb-9464-181e7303054a.gif" height="720" width="338" />
+
+2. Warn location service
+- <img src="https://user-images.githubusercontent.com/54109228/121579612-41f12480-ca02-11eb-9464-181e7303054a.gif" height="720" width="338" />
+
+3. Warn location permission
 
 
 ##
