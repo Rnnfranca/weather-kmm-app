@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:2:1-15:12
-INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:2:1-15:12
-INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:2:1-15:12
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:2:1-9:12
 	package
 		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:3:9-33
 		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml
@@ -21,14 +21,6 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:7:22-76
-application
-ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:9:5-14:19
-meta-data#keyValue
-ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:10:9-13:19
-	android:value
-		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:12:17-43
-	android:name
-		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml:11:17-40
 uses-sdk
 INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\src\androidMain\AndroidManifest.xml

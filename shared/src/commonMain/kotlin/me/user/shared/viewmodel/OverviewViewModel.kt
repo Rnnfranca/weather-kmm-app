@@ -2,6 +2,7 @@ package me.user.shared.viewmodel
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -34,6 +35,10 @@ class OverviewViewModel {
         overviewViewModelScope.launch {
             _forecastResponse.value = repositoryAPI.getForecastByCoordinates(lat, lon)
         }
+    }
+
+    fun cancelScope() {
+        overviewViewModelScope.cancel()
     }
 
 }

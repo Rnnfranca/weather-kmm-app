@@ -1,0 +1,324 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f288201aedda8cfae5dbf3101cb390ae\viewbinding-4.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\b0218513fb24ea04146f94f76fc9d7ff\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d753fa4c135492d455e762b8bf34ea71\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04320a91f1fc268a17d30a960b849500\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35b1f832dca490d080f662e18055c156\constraintlayout-2.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\845bc0740acda6489068708010f9b23f\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\483500103a007c86de456d3b9f841157\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4c9e55d661a2b4d0abe51f3ed5accc1e\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4751ff31d86d31165e1c481a4be5482b\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\34b106a20883c5eb9c5d1d854b79de5d\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\0b1781780e5726d7d1fab263acb7901b\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\de62f4d46c6c1b419fe89983c86e575a\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04fa09bd886d5f45d483bd2e71bb71b2\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d19cd84d196995f08566c27e864a9c18\core-ktx-1.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7d4f95cd5eb0321fa7688832ab393763\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.sqldelight:android-driver:1.4.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\9fbd54bd9efc8d467a9eb8e1b83eb14a\android-driver-1.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\6731715a1d193ae30193f07fcb6dbc45\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\86b8c28ba1fc88403b98c560481b249e\glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\82ea58043b7b8cf878e17dc3c96a1b3c\play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4ef5b2feedce97015f6254d5fb757ad3\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7c4bb1da88419ed3a3e5bdf3beb87837\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1dd10102733689ec02459481744b752c\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\452bedf75daec1a1fbcbc01b07210abc\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\403bb69f87bfce77e2101bc8ad0711fe\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8a80c7bf0a14de1b0c3510fefbf0d827\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\3f64689905c7ff32d96fc11b8391ebd4\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\fac7b0ee71d3e65ddd0fae199eb73ccb\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d550c6693c4738194b6a9b2c53f97e9c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35c9f2a4b9088a0f7517d70dc2348b42\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\60795b377bef302b7517ce156ba705ba\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f82aec0a3bcc58cb1d10a8413c8e6f4c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\daaa71f6a0fdd8be5dff7adb7f7dadc6\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\155075ac175e7e82a93ffcc3528b49f6\play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c8d3f1741ff4147ed0b4ef5435760ee4\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e387ef8267eaf06568dae64975c47092\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\117d7ffc2790413c0e3216b3487de4da\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1b8e2656759dd7ff201eace5fb0fa7d8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4052b49878532240ac2bd20fa149d6f3\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\01d9752841c16a62099c7f20554ecdf2\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04c877810d2f6a076d9a0c8df5a15506\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e9ea5a5288b4dcb451945c0f4e3d4696\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\80e2c6cb4731fd7e99c78c0fd5946489\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\0c98382a0ad20c510fb96454157ab277\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\cc29de16a5564b48cdef7cee5f171da9\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\ff2835ccb4de45000288f2e7499362cb\activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\833ef8ec9a1af2f653721cfb1ccd4b91\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8d517ed48e1107fa4e42ca18a019af15\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\bddd72abe713c631466b27d617a34c5a\gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7cc14591d51183b5aae5826318c79bd1\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\b1cf8d9f5a0cd978ebc3fde9952b5ea4\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\64e4d89cf8c848dd97355d75ac09761a\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\659433f3aab916391a21e772dbd3a6be\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\5267ee824db63d7c8275bd66ed835b0a\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\a2c84cd24e3d0033bf6e2f0690c97392\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\2c0773e8993563f85ad971bf01207874\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1c18bead87e588b70be9b93d84a4eeeb\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\721354f64d5bee45827863d5c6f2cdad\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c68f973b50f79302e21576d8b5430fa7\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7403413d2a809b50c75f3f43bf465997\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\271dbb6892dd98b3139fcf9ba7449f56\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\479360eae46b1786822ec0429ffc449c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f94bba4d3f41d66467fb4976b18bc759\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e40f20f807311c0f4165db58afc3dcb5\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\6f0cb61d32a30264fe211d2253eb9515\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:70-98
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:3:5-20:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04320a91f1fc268a17d30a960b849500\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04320a91f1fc268a17d30a960b849500\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35b1f832dca490d080f662e18055c156\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35b1f832dca490d080f662e18055c156\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\86b8c28ba1fc88403b98c560481b249e\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\86b8c28ba1fc88403b98c560481b249e\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\82ea58043b7b8cf878e17dc3c96a1b3c\play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\82ea58043b7b8cf878e17dc3c96a1b3c\play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\daaa71f6a0fdd8be5dff7adb7f7dadc6\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\daaa71f6a0fdd8be5dff7adb7f7dadc6\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\155075ac175e7e82a93ffcc3528b49f6\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\155075ac175e7e82a93ffcc3528b49f6\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8d517ed48e1107fa4e42ca18a019af15\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8d517ed48e1107fa4e42ca18a019af15\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\bddd72abe713c631466b27d617a34c5a\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\bddd72abe713c631466b27d617a34c5a\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\5267ee824db63d7c8275bd66ed835b0a\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\5267ee824db63d7c8275bd66ed835b0a\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8d517ed48e1107fa4e42ca18a019af15\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:8:13-39
+	android:label
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:6:13-45
+	android:roundIcon
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:7:13-58
+	android:icon
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:5:13-47
+	android:allowBackup
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:4:13-40
+	android:theme
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:10:13-44
+	android:usesCleartextTraffic
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:9:13-48
+activity#me.user.androidApp.MainActivity
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:11:9-16:20
+	android:name
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:13:17-68
+	android:name
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:14:17-76
+	android:name
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:14:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:17:9-19:61
+	android:resource
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:19:17-58
+	android:name
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml:18:17-47
+uses-sdk
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f288201aedda8cfae5dbf3101cb390ae\viewbinding-4.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f288201aedda8cfae5dbf3101cb390ae\viewbinding-4.0.1\AndroidManifest.xml:20:5-44
+MERGED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\b0218513fb24ea04146f94f76fc9d7ff\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\b0218513fb24ea04146f94f76fc9d7ff\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d753fa4c135492d455e762b8bf34ea71\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d753fa4c135492d455e762b8bf34ea71\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04320a91f1fc268a17d30a960b849500\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04320a91f1fc268a17d30a960b849500\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35b1f832dca490d080f662e18055c156\constraintlayout-2.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35b1f832dca490d080f662e18055c156\constraintlayout-2.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\845bc0740acda6489068708010f9b23f\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\845bc0740acda6489068708010f9b23f\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\483500103a007c86de456d3b9f841157\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\483500103a007c86de456d3b9f841157\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4c9e55d661a2b4d0abe51f3ed5accc1e\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4c9e55d661a2b4d0abe51f3ed5accc1e\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4751ff31d86d31165e1c481a4be5482b\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4751ff31d86d31165e1c481a4be5482b\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\34b106a20883c5eb9c5d1d854b79de5d\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\34b106a20883c5eb9c5d1d854b79de5d\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\0b1781780e5726d7d1fab263acb7901b\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\0b1781780e5726d7d1fab263acb7901b\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\de62f4d46c6c1b419fe89983c86e575a\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\de62f4d46c6c1b419fe89983c86e575a\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04fa09bd886d5f45d483bd2e71bb71b2\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04fa09bd886d5f45d483bd2e71bb71b2\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d19cd84d196995f08566c27e864a9c18\core-ktx-1.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d19cd84d196995f08566c27e864a9c18\core-ktx-1.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7d4f95cd5eb0321fa7688832ab393763\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7d4f95cd5eb0321fa7688832ab393763\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.sqldelight:android-driver:1.4.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\9fbd54bd9efc8d467a9eb8e1b83eb14a\android-driver-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.sqldelight:android-driver:1.4.2] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\9fbd54bd9efc8d467a9eb8e1b83eb14a\android-driver-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\6731715a1d193ae30193f07fcb6dbc45\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\6731715a1d193ae30193f07fcb6dbc45\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\86b8c28ba1fc88403b98c560481b249e\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\86b8c28ba1fc88403b98c560481b249e\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\82ea58043b7b8cf878e17dc3c96a1b3c\play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\82ea58043b7b8cf878e17dc3c96a1b3c\play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4ef5b2feedce97015f6254d5fb757ad3\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4ef5b2feedce97015f6254d5fb757ad3\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7c4bb1da88419ed3a3e5bdf3beb87837\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7c4bb1da88419ed3a3e5bdf3beb87837\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1dd10102733689ec02459481744b752c\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1dd10102733689ec02459481744b752c\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\452bedf75daec1a1fbcbc01b07210abc\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\452bedf75daec1a1fbcbc01b07210abc\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\403bb69f87bfce77e2101bc8ad0711fe\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\403bb69f87bfce77e2101bc8ad0711fe\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8a80c7bf0a14de1b0c3510fefbf0d827\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8a80c7bf0a14de1b0c3510fefbf0d827\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\3f64689905c7ff32d96fc11b8391ebd4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\3f64689905c7ff32d96fc11b8391ebd4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\fac7b0ee71d3e65ddd0fae199eb73ccb\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\fac7b0ee71d3e65ddd0fae199eb73ccb\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d550c6693c4738194b6a9b2c53f97e9c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\d550c6693c4738194b6a9b2c53f97e9c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35c9f2a4b9088a0f7517d70dc2348b42\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\35c9f2a4b9088a0f7517d70dc2348b42\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\60795b377bef302b7517ce156ba705ba\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\60795b377bef302b7517ce156ba705ba\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f82aec0a3bcc58cb1d10a8413c8e6f4c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f82aec0a3bcc58cb1d10a8413c8e6f4c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\daaa71f6a0fdd8be5dff7adb7f7dadc6\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\daaa71f6a0fdd8be5dff7adb7f7dadc6\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\155075ac175e7e82a93ffcc3528b49f6\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\155075ac175e7e82a93ffcc3528b49f6\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c8d3f1741ff4147ed0b4ef5435760ee4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c8d3f1741ff4147ed0b4ef5435760ee4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e387ef8267eaf06568dae64975c47092\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e387ef8267eaf06568dae64975c47092\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\117d7ffc2790413c0e3216b3487de4da\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\117d7ffc2790413c0e3216b3487de4da\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1b8e2656759dd7ff201eace5fb0fa7d8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1b8e2656759dd7ff201eace5fb0fa7d8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4052b49878532240ac2bd20fa149d6f3\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\4052b49878532240ac2bd20fa149d6f3\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\01d9752841c16a62099c7f20554ecdf2\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\01d9752841c16a62099c7f20554ecdf2\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04c877810d2f6a076d9a0c8df5a15506\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\04c877810d2f6a076d9a0c8df5a15506\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e9ea5a5288b4dcb451945c0f4e3d4696\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e9ea5a5288b4dcb451945c0f4e3d4696\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\80e2c6cb4731fd7e99c78c0fd5946489\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\80e2c6cb4731fd7e99c78c0fd5946489\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\0c98382a0ad20c510fb96454157ab277\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\0c98382a0ad20c510fb96454157ab277\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\cc29de16a5564b48cdef7cee5f171da9\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\cc29de16a5564b48cdef7cee5f171da9\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\ff2835ccb4de45000288f2e7499362cb\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\ff2835ccb4de45000288f2e7499362cb\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\833ef8ec9a1af2f653721cfb1ccd4b91\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\833ef8ec9a1af2f653721cfb1ccd4b91\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8d517ed48e1107fa4e42ca18a019af15\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\8d517ed48e1107fa4e42ca18a019af15\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\bddd72abe713c631466b27d617a34c5a\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\bddd72abe713c631466b27d617a34c5a\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7cc14591d51183b5aae5826318c79bd1\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7cc14591d51183b5aae5826318c79bd1\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\b1cf8d9f5a0cd978ebc3fde9952b5ea4\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\b1cf8d9f5a0cd978ebc3fde9952b5ea4\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\64e4d89cf8c848dd97355d75ac09761a\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\64e4d89cf8c848dd97355d75ac09761a\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\659433f3aab916391a21e772dbd3a6be\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\659433f3aab916391a21e772dbd3a6be\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\5267ee824db63d7c8275bd66ed835b0a\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\5267ee824db63d7c8275bd66ed835b0a\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\a2c84cd24e3d0033bf6e2f0690c97392\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\a2c84cd24e3d0033bf6e2f0690c97392\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\2c0773e8993563f85ad971bf01207874\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\2c0773e8993563f85ad971bf01207874\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1c18bead87e588b70be9b93d84a4eeeb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\1c18bead87e588b70be9b93d84a4eeeb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\721354f64d5bee45827863d5c6f2cdad\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\721354f64d5bee45827863d5c6f2cdad\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c68f973b50f79302e21576d8b5430fa7\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c68f973b50f79302e21576d8b5430fa7\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7403413d2a809b50c75f3f43bf465997\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7403413d2a809b50c75f3f43bf465997\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\271dbb6892dd98b3139fcf9ba7449f56\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\271dbb6892dd98b3139fcf9ba7449f56\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\479360eae46b1786822ec0429ffc449c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\479360eae46b1786822ec0429ffc449c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f94bba4d3f41d66467fb4976b18bc759\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\f94bba4d3f41d66467fb4976b18bc759\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e40f20f807311c0f4165db58afc3dcb5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\e40f20f807311c0f4165db58afc3dcb5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\6f0cb61d32a30264fe211d2253eb9515\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\6f0cb61d32a30264fe211d2253eb9515\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+		ADDED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\androidApp\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:shared] C:\Users\renan.franca\AndroidStudioProjects\WeatherKmmApp\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\c659fbf02c8034a2d88a129c4eb54a56\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\renan.franca\.gradle\caches\transforms-2\files-2.1\7f65b92f6a989bc9a57913fa59fe7ed7\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58

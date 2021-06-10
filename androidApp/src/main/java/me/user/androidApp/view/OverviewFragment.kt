@@ -309,6 +309,8 @@ class OverviewFragment : Fragment() {
     override fun onDestroy() {
         super.onDestroy()
 
+        overviewViewModel.cancelScope()
+
         _binding = null
     }
 
