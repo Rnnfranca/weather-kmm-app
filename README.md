@@ -1,4 +1,3 @@
-![3 - warn location permission2](https://user-images.githubusercontent.com/54109228/121584038-626fad80-ca07-11eb-8985-e13f3c50f6ab.gif)
 # WeatherApp
 
 <p align="center">
