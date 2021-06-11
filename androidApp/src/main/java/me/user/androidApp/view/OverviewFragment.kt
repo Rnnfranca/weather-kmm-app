@@ -21,6 +21,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.bumptech.glide.Glide
 import com.google.android.gms.location.*
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import me.user.androidApp.databinding.FragmentOverviewBinding
@@ -309,7 +310,10 @@ class OverviewFragment : Fragment() {
     override fun onDestroy() {
         super.onDestroy()
 
-        overviewViewModel.cancelScope()
+        lifecycleScope.launch(Dispatchers.IO) {
+            overviewViewModel.cancelScope()
+
+        }
 
         _binding = null
     }
