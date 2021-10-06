@@ -17,9 +17,11 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.google.android.gms.location.*
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationCallback
+import com.google.android.gms.location.LocationRequest
+import com.google.android.gms.location.LocationResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
@@ -28,17 +30,17 @@ import me.user.androidApp.view.adapter.ForecastAdapter
 import me.user.shared.model.Daily
 import me.user.shared.network.WeatherApi.Companion.UNIT
 import me.user.shared.viewmodel.OverviewViewModel
+import org.koin.android.ext.android.inject
+import org.koin.core.parameter.parametersOf
 
 class OverviewFragment : Fragment() {
 
     private val PERMISSION_ID = 1000
-    private lateinit var fusedLocationProviderClient: FusedLocationProviderClient
-    private lateinit var locationRequest: LocationRequest
 
-    private val overviewViewModel = OverviewViewModel()
-    private lateinit var recyclerView: RecyclerView
-    private lateinit var progressBar: FrameLayout
-    private lateinit var mForecastAdapter: ForecastAdapter
+    private val locationRequest: LocationRequest by inject()
+    private val fusedLocationProviderClient: FusedLocationProviderClient  by inject { parametersOf(requireContext()) }
+    private val overviewViewModel: OverviewViewModel by inject()
+    private val mForecastAdapter: ForecastAdapter by inject()
 
     private var _binding: FragmentOverviewBinding? = null
     private val binding get() = _binding!!
@@ -51,25 +53,13 @@ class OverviewFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentOverviewBinding.inflate(inflater)
 
-        fusedLocationProviderClient =
-            LocationServices.getFusedLocationProviderClient(requireContext())
-
-
         return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-
-        viewConfiguration()
-
-    }
-
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        progressBar = binding.progressBar
 
+        viewConfiguration()
         getLastLocation()
 
         collectWeatherResponse()
@@ -106,7 +96,7 @@ class OverviewFragment : Fragment() {
             } else {
                 binding.linearLayoutLocationWarning.visibility = View.VISIBLE
                 binding.linearLayoutContainer.visibility = View.INVISIBLE
-                progressBar.isVisible = false
+                binding.progressBar.isVisible = false
 
             }
         } else {
@@ -140,7 +130,7 @@ class OverviewFragment : Fragment() {
     private fun isLocationEnabled(): Boolean {
         val locationManager: LocationManager =
             requireContext().getSystemService(Context.LOCATION_SERVICE) as LocationManager
-        progressBar.isVisible = false
+        binding.progressBar.isVisible = false
 
         return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) || locationManager.isProviderEnabled(
             LocationManager.NETWORK_PROVIDER
@@ -149,12 +139,11 @@ class OverviewFragment : Fragment() {
 
     private fun getNewLocation() {
 
-        locationRequest = LocationRequest.create().apply {
-            priority = LocationRequest.PRIORITY_HIGH_ACCURACY
-            interval = 0
-            fastestInterval = 0
-            numUpdates = 2
-        }
+        locationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
+        locationRequest.interval = 0
+        locationRequest.fastestInterval = 0
+        locationRequest.numUpdates = 2
+
         if (checkPermission()) {
             fusedLocationProviderClient.requestLocationUpdates(
                 locationRequest,
@@ -213,7 +202,7 @@ class OverviewFragment : Fragment() {
                 Log.d("Debug", "You don't have the permission")
                 binding.linearLayoutContainer.visibility = View.INVISIBLE
                 binding.linearLayoutPermissionWarning.visibility = View.VISIBLE
-                progressBar.isVisible = false
+                binding.progressBar.isVisible = false
             }
 
         }
@@ -243,7 +232,7 @@ class OverviewFragment : Fragment() {
     }
 
     private fun collectWeatherResponse() {
-        progressBar.isVisible = true
+        binding.progressBar.isVisible = true
         lifecycleScope.launch {
 
 
@@ -274,7 +263,7 @@ class OverviewFragment : Fragment() {
                         }
                     }
 
-                    progressBar.isVisible = false
+                    binding.progressBar.isVisible = false
 
                 }
 
@@ -284,21 +273,18 @@ class OverviewFragment : Fragment() {
     }
 
     private fun viewConfiguration() {
-
         binding.swipeRefresh.setOnRefreshListener {
             binding.swipeRefresh.isRefreshing = false
             getLastLocation()
         }
 
-        recyclerView = binding.recyclerView
-
-        recyclerView.layoutManager = LinearLayoutManager(
+        binding.recyclerView.layoutManager = LinearLayoutManager(
             context,
             LinearLayoutManager.HORIZONTAL,
             false
         )
-        mForecastAdapter = ForecastAdapter(listOf())
-        recyclerView.adapter = mForecastAdapter
+
+        binding.recyclerView.adapter = mForecastAdapter
 
 
     }
