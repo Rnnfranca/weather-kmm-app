@@ -18,7 +18,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.bumptech.glide.Glide
 import com.google.android.gms.location.*
 import kotlinx.coroutines.Dispatchers
@@ -39,7 +38,6 @@ class OverviewFragment : Fragment() {
     private val overviewViewModel = OverviewViewModel()
     private lateinit var recyclerView: RecyclerView
     private lateinit var progressBar: FrameLayout
-    private lateinit var swipeRefreshLayout: SwipeRefreshLayout
     private lateinit var mForecastAdapter: ForecastAdapter
 
     private var _binding: FragmentOverviewBinding? = null
@@ -287,10 +285,8 @@ class OverviewFragment : Fragment() {
 
     private fun viewConfiguration() {
 
-        swipeRefreshLayout = binding.swipeRefresh
-
-        swipeRefreshLayout.setOnRefreshListener {
-            swipeRefreshLayout.isRefreshing = false
+        binding.swipeRefresh.setOnRefreshListener {
+            binding.swipeRefresh.isRefreshing = false
             getLastLocation()
         }
 

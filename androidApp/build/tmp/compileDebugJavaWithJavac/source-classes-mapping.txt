@@ -1,8 +1,0 @@
-me/user/androidApp/databinding/ActivityMainBinding.java
- me.user.androidApp.databinding.ActivityMainBinding
-me/user/androidApp/databinding/ForecastItemBinding.java
- me.user.androidApp.databinding.ForecastItemBinding
-me/user/androidApp/BuildConfig.java
- me.user.androidApp.BuildConfig
-me/user/androidApp/databinding/FragmentOverviewBinding.java
- me.user.androidApp.databinding.FragmentOverviewBinding

@@ -12,7 +12,7 @@ version = "1.0-SNAPSHOT"
 dependencies {
     implementation(project(":shared"))
     implementation("com.google.android.material:material:1.3.0")
-    implementation("androidx.appcompat:appcompat:1.2.0")
+    implementation("androidx.appcompat:appcompat:1.3.0")
     implementation("androidx.constraintlayout:constraintlayout:2.0.2")
     // coroutine
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
@@ -30,6 +30,8 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:18.0.0")
     // swipe refresh layout
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    // koin
+    implementation("org.koin:koin-android:1.0.1")
 }
 
 android {
